@@ -1,5 +1,6 @@
 import { Banner } from "./components/Banner";
 import { Navbar } from "./components/Navbar";
+import { Skills } from "./components/Skills";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
           <Navbar />
           <main>
             <Banner />
+            <Skills />
           </main>
         </div>
       </div>
