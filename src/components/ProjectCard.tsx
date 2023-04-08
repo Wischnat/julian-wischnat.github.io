@@ -3,7 +3,7 @@ import React from "react";
 interface ProjectCardProps {
   name: string;
   htmlUrl: string;
-  languages: string[];
+  languages?: string[];
   description: string;
   topics: string[];
 }
