@@ -1,9 +1,11 @@
-import { Banner } from "./components/Banner";
-import { Footer } from "./components/Footer";
-import { Navbar } from "./components/Navbar";
-import { Projects } from "./components/Projects";
-import { SideMail } from "./components/SideMail";
-import { Skills } from "./components/Skills";
+import {
+  Banner,
+  Footer,
+  Navbar,
+  Projects,
+  SideMail,
+  Skills,
+} from "./components";
 
 export default function App() {
   return (
