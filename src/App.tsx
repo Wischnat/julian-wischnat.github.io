@@ -2,6 +2,7 @@ import { Banner } from "./components/Banner";
 import { Footer } from "./components/Footer";
 import { Navbar } from "./components/Navbar";
 import { Projects } from "./components/Projects";
+import { SideMail } from "./components/SideMail";
 import { Skills } from "./components/Skills";
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
           </main>
           <Footer />
         </div>
+        <SideMail />
       </div>
     </div>
   );
