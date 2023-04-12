@@ -1,0 +1,42 @@
+{
+  "en": {
+    "banner": {
+      "welcome": "Welcome to my private developer portfolio",
+      "author": "Julian Wischnat",
+      "job": "Student",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, rem voluptatibus? Ratione quam inventore nisi. Ab ipsum assumenda facere, harum atque id ratione eum ea quos exercitationem. Dolores, quisquam quasi?",
+      "connect": "Let's connect",
+      "mail": "julian.wischnat@proton.me"
+    },
+    "footer": {
+      "inspiredBy": "Inspired by",
+      "brittanyChiang": "Brittany Chiang",
+      "privacyPolicy": "Privacy Policy",
+      "GitHubPages": "This website is hosted by Github using Github Pages. The Github Global Privacy Practices are available",
+      "here": "here"
+    },
+    "navbar": {
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects"
+    },
+    "skills": {
+      "title": "Skills",
+      "html": "HTML",
+      "css": "CSS",
+      "javaScript": "JavaScript",
+      "typeScript": "TypeScript",
+      "node": "Node.js",
+      "postgresSQL": "PostgresSQL",
+      "mongoDB": "MongoDB",
+      "firebase": "Firebase",
+      "tailwind": "Tailwind CSS"
+    },
+    "projects": {
+      "title": "Projects"
+    },
+    "sideMail": {
+      "mail": "julian.wischnat@proton.me"
+    }
+  }
+}
