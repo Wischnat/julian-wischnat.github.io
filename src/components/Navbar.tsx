@@ -1,6 +1,7 @@
 import { SetStateAction, useEffect, useState } from "react";
 import { SiLinkedin, SiGithub } from "react-icons/si";
 import { Link } from "react-scroll";
+import i18n from "../assets/i18n/i18n";
 
 export const Navbar = () => {
   const about = "about";
@@ -49,7 +50,7 @@ export const Navbar = () => {
               spy
               to={about}
             >
-              About
+              {i18n.t("navbar.about")}
             </Link>
           </li>
           <li>
@@ -64,7 +65,7 @@ export const Navbar = () => {
               spy
               to={skills}
             >
-              Skills
+              {i18n.t("navbar.skills")}
             </Link>
           </li>
           <li>
@@ -79,7 +80,7 @@ export const Navbar = () => {
               spy
               to={projects}
             >
-              Projects
+              {i18n.t("navbar.projects")}
             </Link>
           </li>
         </ul>
@@ -88,7 +89,7 @@ export const Navbar = () => {
         <ul className="flex items-center justify-end">
           <li>
             <a
-              href="www.linkedin.com/in/julian-wischnat"
+              href="https://www.linkedin.com/in/julian-wischnat"
               className="relative hidden md:inline-flex w-8 h-8 items-center justify-center mx-1 leading-none text-teal-400 border rounded-3xl border-solid border-teal-400 hover:text-gray-900 hover:duration-300 z-0
             before:w-8 before:h-8 before:absolute before:bg-teal-400 before:duration-300 ease-in-out before:rounded-3xl transition-[0.3s] before:scale-0 hover:before:scale-100 before:-z-10"
             >

@@ -1,0 +1,42 @@
+{
+  "de": {
+    "banner": {
+      "welcome": "Willkommen auf meiner privaten Entwickler-Portfolioseite",
+      "author": "Julian Wischnat",
+      "job": "Student",
+      "description": "Ich bin Julian Wischnat und 25 Jahre jung. Derzeit studiere an der HOCHSCHULE DARMSTADT University of Applied Sciences Informatik. Während meines Studiums habe ich meine Leidenschaft für die Fullstack-Entwicklung entdeckt. Zurzeit bin ich aktiv auf der Suche nach einem Platz, um meine Praxisphase zu absolvieren und gleichzeitig eine Stelle als Werkstudent zu finden.",
+      "connect": "Schreib mir",
+      "mail": "julian.wischnat@proton.me"
+    },
+    "footer": {
+      "inspiredBy": "Inspiriert von",
+      "brittanyChiang": "Brittany Chiang",
+      "privacyPolicy": "Datenschutz",
+      "GitHubPages": "Diese Website wird von Github mit Hilfe von Github Pages gehostet. Die GitHub Global Privacy Practices finden Sie",
+      "here": "hier"
+    },
+    "navbar": {
+      "about": "Über mich",
+      "skills": "Skills",
+      "projects": "Projekte"
+    },
+    "skills": {
+      "title": "Skills",
+      "html": "HTML",
+      "css": "CSS",
+      "javaScript": "JavaScript",
+      "typeScript": "TypeScript",
+      "node": "Node.js",
+      "postgresSQL": "PostgresSQL",
+      "mongoDB": "MongoDB",
+      "firebase": "Firebase",
+      "tailwind": "Tailwind CSS"
+    },
+    "projects": {
+      "title": "Projekte"
+    },
+    "sideMail": {
+      "mail": "julian.wischnat@proton.me"
+    }
+  }
+}

@@ -1,8 +1,5 @@
 import { SiLinkedin, SiGithub } from "react-icons/si";
-
-<a className="w-full" href="https://brittanychiang.com/">
-  Inspired by Brittany Chiang
-</a>;
+import i18n from "../assets/i18n/i18n";
 
 export const Footer = () => {
   return (
@@ -32,23 +29,22 @@ export const Footer = () => {
       <hr className="my-4" />
       <section className="flex flex-col items-center justify-center text-sm">
         <p>
-          Inspired by{" "}
+          {i18n.t("footer.inspiredBy")}{" "}
           <a className="font-bold" href="https://brittanychiang.com/">
-            Brittany Chiang
+            {i18n.t("footer.brittanyChiang")}
           </a>
         </p>
         <details>
           <summary className="flex justify-center font-bold cursor-pointer">
-            Privacy Policy
+            {i18n.t("footer.privacyPolicy")}
           </summary>
           <p>
-            This website is hosted by Github using Github Pages. The Github
-            Global Privacy Practices are available{" "}
+            {i18n.t("footer.GitHubPages")}{" "}
             <a
               href="https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement"
               className="font-bold"
             >
-              here
+              {i18n.t("footer.here")}
             </a>
           </p>
         </details>
